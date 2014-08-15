@@ -1,0 +1,144 @@
+/* Color Pattern: http://www.colourlovers.com/palette/962376/I_like_your_Smile*/
+
+
+body{
+	font-family: Helvetica, Arial, Sans-serif;
+	font-size: 14px;
+	color: #7d7d7d;
+	
+}
+
+h1, h2, h3, h4{
+	color:white;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 500;
+}
+
+
+section{
+	text-align: center;
+}
+
+
+
+/** top-greeting **/
+.navbar{
+	background-color: transparent;
+	border-color: transparent;
+	border-bottom: 1px solid #FFBE40;
+}
+.navbar .navbar-left a {
+	color:white;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 500;
+	letter-spacing: 3px;
+}
+.navbar .nav > li > a {
+	color:white;
+}
+.navbar .nav > li > a:hover {
+	color:#FFBE40;
+}
+.navbar-default .navbar-nav > .active > a, 
+	.navbar-default .navbar-nav > .active > a:hover, 
+	.navbar-default .navbar-nav > .active > a:focus {
+      color: #EF746F;
+      background: #FFBE40;
+ }
+.top-greeting{
+	height: 620px;
+	background: #222 url(../images/Fotolia_42007740_XL_black.png) no-repeat ;
+	background-position: 70% 40%;
+	background-size: cover;
+}
+
+
+
+/** adventure section **/
+#adventure{
+	max-width: 500px;
+	padding-top: 60px;
+	padding-bottom: 60px;
+	
+}
+
+#adventure h2{
+	color:#EF746F;
+}
+#adventure p{
+
+}
+#adventure .carousel-indicators li{
+	background-color:#FFBE40;
+}
+#adventure .carousel-indicators .active{
+	background-color:#EF746F;
+}
+#adventure .carousel-inner .item{
+	height:230px;
+}
+
+
+/** about section **/
+#about{
+	background-color: #fbf6d6;
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+
+#about h2{
+	color:#EF746F;
+}
+#about h2::after { 
+	content: " "; 
+	border: solid 2px #B3CC57; 
+	display: block; 
+	width: 35px; 
+	margin: 25px auto; }
+#about p{
+	
+}
+
+#visualBreak{
+	height: 520px;
+	background: #222 url(../images/Fotolia_50925195_L_black.png) no-repeat ;
+	background-position: 70% 25%;
+	background-size: cover;
+}
+
+
+/** contact section **/
+#contact{
+	background-color: #B3CC57;
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+#contact h2{
+	color: white;
+	margin-bottom: 30px;
+}
+#contact form{
+	max-width: 500px;
+	margin:auto;
+	text-align: center;
+}
+
+/** footer **/
+footer {
+	text-align: center;
+}
+
+footer li {
+	list-style-type: none;
+	display:inline;
+}
+
+
+.social-btn:hover, .social-btn:focus { 
+	color: #EF746F!important; 
+
+}
+.social-btn { 
+	font-size: 18px!important;
+	color:#FFBE40!important;
+}
