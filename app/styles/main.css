@@ -19,8 +19,6 @@ section{
 	text-align: center;
 }
 
-
-
 /** top-greeting **/
 .navbar{
 	background-color: transparent;
@@ -30,21 +28,16 @@ section{
 .navbar .navbar-left a {
 	color:white;
 	font-family: 'Raleway', sans-serif;
-	font-weight: 500;
+	font-weight: 700;
 	letter-spacing: 3px;
 }
 .navbar .nav > li > a {
 	color:white;
 }
 .navbar .nav > li > a:hover {
-	color:#FFBE40;
+	color: #EF746F;
+    background: #FFBE40;
 }
-.navbar-default .navbar-nav > .active > a, 
-	.navbar-default .navbar-nav > .active > a:hover, 
-	.navbar-default .navbar-nav > .active > a:focus {
-      color: #EF746F;
-      background: #FFBE40;
- }
 .top-greeting{
 	height: 620px;
 	background: #222 url(../images/Fotolia_42007740_XL_black.png) no-repeat ;
@@ -56,10 +49,8 @@ section{
 
 /** adventure section **/
 #adventure{
-	max-width: 500px;
+	max-width: 600px;
 	padding-top: 60px;
-	padding-bottom: 60px;
-	
 }
 
 #adventure h2{
@@ -75,30 +66,43 @@ section{
 	background-color:#EF746F;
 }
 #adventure .carousel-inner .item{
-	height:230px;
+	height:260px;
 }
 
 
-/** about section **/
-#about{
+/** info section **/
+#info {
+	background-color: #fbf6d6;
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+#info h2, a{
+	color:#EF746F;
+}
+#info a:hover{
+	color:#FFBE40;
+	text-decoration: none;
+}
+
+
+
+/** team section **/
+#team{
 	background-color: #fbf6d6;
 	padding-top: 60px;
 	padding-bottom: 60px;
 }
 
-#about h2{
+#team h2, h6{
 	color:#EF746F;
 }
-#about h2::after { 
-	content: " "; 
-	border: solid 2px #B3CC57; 
-	display: block; 
-	width: 35px; 
-	margin: 25px auto; }
-#about p{
-	
-}
 
+#visualBreakOne{
+	height: 120px;
+	background: #222 url(../images/naturwerkstattBack.png) no-repeat ;
+	background-position: 70% 25%;
+	background-size: cover;
+}
 #visualBreak{
 	height: 520px;
 	background: #222 url(../images/Fotolia_50925195_L_black.png) no-repeat ;
@@ -109,8 +113,10 @@ section{
 
 /** contact section **/
 #contact{
-	background-color: #B3CC57;
-	padding-top: 60px;
+	background: #222 url(../images/naturwerkstattBack_black.png) no-repeat ;
+	background-position: 70% 40%;
+	background-size: cover;
+	padding-top: 30px;
 	padding-bottom: 60px;
 }
 #contact h2{
@@ -122,23 +128,89 @@ section{
 	margin:auto;
 	text-align: center;
 }
+#contact .btn-default { 
+	background-color: #EF746F; 
+	color:white; 
+	border-color:#EF746F;
+} 
+#contact .btn-default :hover { 
+	background-color: #FFBE40; 
+	color:red!important; 
+}
+
+/** contact detail **/
+
+#contactDetail{
+	background-color: #f3f5f8;
+	padding-top: 30px;
+}
+#contactDetail a,span,p{
+	color:#7d7d7d;
+}
+#contactDetail h2:after{
+	color:#EF746F;
+}
+#contactDetail h2::after { 
+	content: " "; 
+	border: solid 2px #EF746F; 
+	display: block; 
+	width: 35px; 
+	margin: 25px auto; 
+}
+
+.light-box { 
+	height:220px;
+	background-color: #fff; 
+	-webkit-box-shadow: 0px 3px 0px 0px #f0f2f4; 
+	-moz-box-shadow: 0px 3px 0px 0px #f0f2f4; 
+	box-shadow: 0px 3px 0px 0px #f0f2f4; 
+	padding: 20px 0; 
+}
+.light-box:hover, .light-box:focus { 
+	-webkit-box-shadow: 0px 3px 0px 0px #FFBE40; 
+	-moz-box-shadow: 0px 3px 0px 0px #FFBE40; 
+	box-shadow: 0px 3px 0px 0px #FFBE40; 
+}
+.box-hover { transition: all 500ms ease-in-out; -webkit-transition: all 500ms ease-in-out; -moz-transition: all 500ms ease-in-out; -o-transition: all 500ms ease-in-out; }
+.box-hover:hover, .box-hover:focus { transform: translate(0, -15px); -webkit-transform: translate(0, -15px); -ms-transform: translate(0, -15px); }
 
 /** footer **/
 footer {
 	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+footer ul{
+	margin-bottom: 0px;
 }
 
 footer li {
 	list-style-type: none;
 	display:inline;
+	font-weight: 200;
+}
+footer a{
+	color:#7d7d7d;
+}
+footer a:hover{
+	color:#EF746F!important;
+	text-decoration: none;
+}
+footer p{
+
+	display:inline;
+	margin-right: 20px;
 }
 
+#impressum h1,h2,h4,p{
+	color:#7d7d7d;
+}
 
-.social-btn:hover, .social-btn:focus { 
+.navbar .social-btn:hover, .social-btn:focus { 
 	color: #EF746F!important; 
 
 }
-.social-btn { 
+.navbar .social-btn { 
 	font-size: 18px!important;
 	color:#FFBE40!important;
 }
