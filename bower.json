@@ -4,7 +4,8 @@
   "dependencies": {
     "bootstrap": "~3.1.1",
     "jquery": "~1.11.1",
-    "animate.css": "~3.2.0"
+    "animate.css": "~3.2.0",
+    "jquery-waypoints": "~2.0.5"
   },
   "devDependencies": {}
 }
