@@ -1,6 +1,5 @@
 /* Color Pattern: http://www.colourlovers.com/palette/962376/I_like_your_Smile*/
 
-
 body{
 	font-family: Helvetica, Arial, Sans-serif;
 	font-size: 14px;
@@ -40,7 +39,7 @@ section{
 }
 .top-greeting{
 	height: 620px;
-	background: #222 url(../images/Fotolia_42007740_XL_black.png) no-repeat ;
+	background: #222 url(../images/topBg.png) no-repeat ;
 	background-position: 70% 40%;
 	background-size: cover;
 }
@@ -97,15 +96,9 @@ section{
 	color:#EF746F;
 }
 
-#visualBreakOne{
-	height: 120px;
-	background: #222 url(../images/naturwerkstattBack.png) no-repeat ;
-	background-position: 70% 25%;
-	background-size: cover;
-}
 #visualBreak{
 	height: 520px;
-	background: #222 url(../images/Fotolia_50925195_L_black.png) no-repeat ;
+	background: #222 url(../images/visualBreakBg.png) no-repeat ;
 	background-position: 70% 25%;
 	background-size: cover;
 }
@@ -113,7 +106,7 @@ section{
 
 /** contact section **/
 #contact{
-	background: #222 url(../images/naturwerkstattBack_black.png) no-repeat ;
+	background: #222 url(../images/contactBg.png) no-repeat ;
 	background-position: 70% 40%;
 	background-size: cover;
 	padding-top: 30px;
@@ -178,9 +171,9 @@ section{
 	-o-transition: all 500ms ease-in-out; 
 }
 .box-hover:hover, .box-hover:focus { 
-	transform: translate(0, -15px); 
-	-webkit-transform: translate(0, -15px); 
-	-ms-transform: translate(0, -15px); 
+	transform: translate(0, -5px); 
+	-webkit-transform: translate(0, -5px); 
+	-ms-transform: translate(0, -5px); 
 }
 
 /** footer **/
