@@ -17,6 +17,9 @@ h1, h2, h3, h4{
 section{
 	text-align: center;
 }
+::selection {
+  background: #B3CC57; 
+}
 
 /** top-greeting **/
 .navbar{
@@ -98,7 +101,7 @@ section{
 
 #visualBreak{
 	height: 520px;
-	background: #222 url(../images/visualBreakBg.png) no-repeat ;
+	background: #222 url(../images/visualBreak.png) no-repeat ;
 	background-position: 70% 25%;
 	background-size: cover;
 }
