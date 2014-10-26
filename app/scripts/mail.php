@@ -1,11 +1,12 @@
 <?php 
-
   $email = $_POST['email'];
   $message = $_POST['message'];
   $formcontent="From: $email \n Message: $message";
   $recipient = "AndyPf@web.de";
-  $subject = "Contact Form";
+  $subject = "[Website] Neue Nachricht";
   $mailheader = "From: $email \r\n";
+  $errorMsg = "Error!";
+  $successMsg = "Thank You!";
   mail($recipient, $subject, $formcontent, $mailheader) or die("Error!");
-  echo "Thank You!";
+  header('Location: http://seven-ply.bplaced.net/');
 ?>
