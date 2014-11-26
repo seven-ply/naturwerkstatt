@@ -1,4 +1,5 @@
 <?php 
+if($_POST){
   $email = $_POST['email'];
   $message = $_POST['message'];
   $formcontent="From: $email \n Message: $message";
@@ -7,6 +8,8 @@
   $mailheader = "From: $email \r\n";
   $errorMsg = "Error!";
   $successMsg = "Thank You!";
-  mail($recipient, $subject, $formcontent, $mailheader) or die("Error!");
-  header('Location: http://seven-ply.bplaced.net/');
+  mail($recipient, $subject, $formcontent, $mailheader) or die($errorMsg);
+  echo $successMsg;
+}
+
 ?>
