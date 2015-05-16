@@ -1,6 +1,6 @@
 $(document).ready(function() {
 	$('.carousel').carousel({
-	  interval: 5000
+		interval: 5000
 	})
 
 	$('.wp1').waypoint(function() {
@@ -18,4 +18,14 @@ $(document).ready(function() {
 	}, {
 		offset: '100%'
 	});
+
+
+	$('#submit').click(function(){
+		$.post("http://seven-ply.bplaced.net/scripts/mail.php", $("#contactForm").serialize(),  function(response) {   
+			console.log("message sent response: "+response);
+			$('#mailSentSuccess').show();
+		});
+		return false; 
+	});
 });
+
